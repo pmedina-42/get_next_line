@@ -6,7 +6,7 @@
 /*   By: pmedina- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/08/11 12:17:32 by pmedina-          #+#    #+#             */
-/*   Updated: 2020/08/31 15:35:02 by pmedina-         ###   ########.fr       */
+/*   Updated: 2020/09/01 12:22:34 by pmedina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,5 +25,6 @@ size_t	ft_strlen(const char *str);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strdup(const char *s1);
 char	*ft_strjoin(char const *s1, char const *s2);
+void	*ft_memcpy(void *restrict dst, const void *restrict src, size_t n);
 
 #endif
