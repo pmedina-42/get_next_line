@@ -6,12 +6,16 @@
 /*   By: pmedina- <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/08/11 12:17:32 by pmedina-          #+#    #+#             */
-/*   Updated: 2020/09/01 12:22:34 by pmedina-         ###   ########.fr       */
+/*   Updated: 2020/09/10 12:30:17 by pmedina-         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef GET_NEXT_LINE_H
 # define GET_NEXT_LINE_H
+
+# ifndef BUFFER_SIZE
+#  define BUFFER_SIZE 1
+# endif
 
 # include <stdio.h>
 # include <string.h>
